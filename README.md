@@ -92,12 +92,12 @@ Para garantir que os sensores estejam funcionando corretamente e detecte alguma 
 O circuito verificador foi desenvolvido de forma genérica, ou seja, um circuito integrado para facilitar a replicação posteriormente.
 
 <p align="center">
-  <img src="tabela-verdade-par-a-par.png" alt="Figura 9" width="400" height="300">
+  <img src="tabela-verdade-par-a-par.png" alt="Figura 9">
   <br> Figura 9: Tabela verdade verificador
 </p>
 
 <p align="center">
-  <img src="mapa-k-par-a-par.png" alt="Figura 10" width="400" height="300">
+  <img src="mapa-k-par-a-par.png" alt="Figura 10">
   <br> Figura 10: Mapa-K verificador
 </p>
 
