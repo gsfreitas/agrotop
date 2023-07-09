@@ -17,6 +17,13 @@ A horta caseira tem se tornado uma alternativa para muitos brasileiros como form
 
 Segundo o Programa de Análise de Resíduos em Alimentos da ANVISA (Agência Nacional de Vigilância Sanitária, 2011), um terço dos alimentos consumidos pelos brasileiros possuem agrotóxicos. A intoxicação por esse produto químico pode causar diversas doenças, como as variações do câncer. Esse é um dos motivos pelos quais as pessoas buscam pela qualidade de vida através de uma alimentação saudável.
 
+<p align="center">
+  <img src="diagrama.png" alt="Figura 1" width="400" height="300">
+  <br> Figura 4: Funcionamento do circuito
+</p>
+
+Os dados são lidos pelos respectivos sensores de temperatura, pH e umidade. O primeiro bloco verificador irá avaliar se um desses sensores estão com valores divergentes e aponta qual deles apresenta um possível problema. Antes de ativar o sistema de irrigação ele irá verificar se ao menos dois sensores estão na faixa de valores correta para ativação. Em caso positivo, a válvula de irrigação será ativado e apontará qual das categorias de sensores (temperatura, pH ou umidade) está com valor divergente. Ele ficará ativado por 12 segundos e em seguida terá 1 segundo para avaliar novamente os parâmetros para irrigar novamente ou não. O usuário também poderá fazer intervenção de forma manual, ligando ou desligando a válvula de irrigação
+
 ### Necessidade da automação ###
 Muitos brasileiros possuem uma rotina completa de demandas e falta de tempo, seja por conta do trabalho ou por questões pessoais. Administrar a rotina e incorporar as práticas de exercício físico ou outras que auxiliem a melhorar a qualidade de vida se tornou cada vez mais complexo.
 
@@ -33,7 +40,7 @@ O sensor de pH é um dos sensores envolvidos no projeto. Ele tem como finalidade
 
 <p align="center">
   <img src="sensor-ph.png" alt="Figura 1" width="400" height="300">
-  <br> Figura 1: Sensor de pH
+  <br> Figura 2: Sensor de pH
 </p>
 
 No presente projeto, ele será utilizado para verificar a acidez ou alcalinidade na solução. Uma vez que as plantas em geral possuem o seu desenvolvimento máximo entre um pH de 5,5 e 6,5 e à medida que elas crescem esse valor pode ser alterado (SOUZA, Silva Allef, 2016).
@@ -42,11 +49,11 @@ A lógica utilizada para este sensor é baseada nos valores considerados ideais.
 
 Para aumentar a precisão do sistema, será utilizado uma lógica de verificação par a par entre todos os sensores. Para fins de simplificação do projeto, os valores foram arredondados e a tabela verdade do circuito pode ser observada na Figura 2.
 
-A simplificação para cada saída foi feita através do mapa de Karnaugh, ou mais comumente denominado mapa-K. A simplificação para a saída de base e ácido pode ser observada na Figura 3.
+A simplificação para cada saída foi feita através do mapa de Karnaugh, ou mais comumente denominado mapa-K.
 
 | ![Imagem 1](tabela-verdade-ph.png)       | ![Imagem 2](mapa-k-ph.png)            |
 | :-----------------------------------:    | :-----------------------------------: |
-| Figura 2: Tabela verdade sensor pH       |  Figura 3: Mapa-K pH                  |
+| Figura 3: Tabela verdade sensor pH       |  Figura 4: Mapa-K pH                  |
 
 É possível simplificar a saídas dado o mapa de Karnaugh e pode ser observada através da expressão a seguir:
 
@@ -73,7 +80,7 @@ A lógica para ambos os dispositivos é trabalhar em faixa de valores para 3 bit
 
 | ![Imagem 1](tabela-verdade-umidade.png)  | ![Imagem 2](tabela-verdade-temperatura.png)   |
 | :-----------------------------------:    | :-----------------------------------:         |
-| Figura 5: Tabela verdade sensor umidade  |  Figura 3: Tabela verdade sensor temperatura  |
+| Figura 5: Tabela verdade sensor umidade  |  Figura 6: Tabela verdade sensor temperatura  |
 
 A partir das tabelas-verdade anteriores é possível analisar o momento de ativação para cada tipo de leitura. No caso de umidade, é ativo somente quando o valor mensurado é menor que 20% e o usuário precisa regar as plantas novamente. Já para o caso de temperatura, o usuário será avisado tanto no momento em que a temperatura exceder os valores máximos considerados ideais para as plantas, quanto para os valores mínimos ideais para manter sua sobrevivência.
 
