@@ -63,7 +63,7 @@ Já o sensor de umidade é útil para monitorar a quantidade de água no solo, p
 Além disso, esse tipo de dispositivo também ajuda a evitar o apodrecimento das raízes devido a falta de irrigação.
 
 <p align="center">
-  <img src="sensor-tempratura-umidade.png" alt="Figura 1" width="400" height="300">
+  <img src="sensor-temperatura-umidade.png" alt="Figura 1" width="400" height="300">
   <br> Figura 4: Sensor de Umidade e Temperatura
 </p>
 
