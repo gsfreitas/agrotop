@@ -33,6 +33,7 @@ O sensor de pH é um dos sensores envolvidos no projeto. Ele tem como finalidade
 
 <p align="center">
   <img src="sensor-ph.png" alt="Figura 1" width="400" height="300">
+  <br> Figura 1: Sensor de pH
 </p>
 
 No presente projeto, ele será utilizado para verificar a acidez ou alcalinidade na solução. Uma vez que as plantas em geral possuem o seu desenvolvimento máximo entre um pH de 5,5 e 6,5 e à medida que elas crescem esse valor pode ser alterado (SOUZA, Silva Allef, 2016).
@@ -52,3 +53,20 @@ A simplificação para cada saída foi feita através do mapa de Karnaugh, ou ma
 <p align="center">
   *S' = C' + B'A'*
 </p>
+
+### Umidade e temperatura ###
+
+O sensor de temperatura é ideal para alertar o usuário quando o valor não estiver dentro das normalidades. O valor considerado padrão para uma horta é acima de 18°C e abaixo de 24°C no verão e 10°C a 16°C durante o inverno, uma vez que temperaturas acima do limiar máximo podem causar danos às plantas, pois elas apresentam dificuldades em realizar fotossíntese e garantir os nutrientes em temperaturas extremamente altas.
+
+Já o sensor de umidade é útil para monitorar a quantidade de água no solo, permitindo que o usuário saiba o momento de regar as plantas, evitando o excesso ou a falta de água. O sensor auxilia o uso consciente da água e garante a umidade adequada para o crescimento saudável das plantas.
+
+Além disso, esse tipo de dispositivo também ajuda a evitar o apodrecimento das raízes devido a falta de irrigação.
+
+<p align="center">
+  <img src="sensor-ph.png" alt="Figura 1" width="400" height="300">
+  <br> Figura 4: Sensor de Umidade e Temperatura
+</p>
+
+A umidade ideal para uma horta caseira varia de 50% até uma média de 75%. Essa faixa de valores será usada para o desenvolvimento do sensor posteriormente, respeitando os limites do dispositivo físico, que variam de 20% a 90% para o sensor de umidade e até 50°C para a leitura de temperatura.
+
+A lógica para ambos os dispositivos é trabalhar em faixa de valores para 3 bits para o sensor de umidade e com a finalidade de aumentar a precisão no sensor de temperatura, serão utilizados 4 bits. A tabela verdade para o sensor de umidade e temperatura podem ser analisadas respectivamente nas Figuras 8 e 9.
