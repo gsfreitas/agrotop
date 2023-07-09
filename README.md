@@ -6,7 +6,7 @@
 <sub>*Projeto final da disciplina de Circuitos Digitais do Instituto de Ciência e Tecnologia da Universidade Federal de São Paulo*<sub>
 
 ## Resumo ##
-Com a crescente revolução tecnológica voltada para o agronegócio, existe a necessidade do desenvolvimento de sistemas que tornem a atividade braçal automatizada, com a finalidade de garantir a qualidade e tornar o processo mais simples e eficaz. Além disso, esse tipo de tecnologia ajuda a manter a competitividade dentro do mercado do agronegócio. Um dos grandes desafios para a implementação da tecnologia é manter o baixo custo e tornar acessível esse tipo de tecnologia para o uso doméstico. O presente trabalho tem como objetivo desenvolver a lógica de um circuito digital para automatizar a irrigação com base em diferentes tipos de sensores já existentes no mercado. Além disso, busca estar de acordo com o objetivo 2, 3 e 7 dos Objetivos de Desenvolvimento Sustentável da ONU (Organização das Nações Unidas), que são fome zero; boa saúde e bem estar; e energia acessível e limpa respectivamente.
+Com a crescente revolução tecnológica voltada para o agronegócio, existe a necessidade do desenvolvimento de sistemas que tornem a atividade braçal automatizada, com a finalidade de garantir a qualidade e tornar o processo mais simples e eficaz. Além disso, esse tipo de tecnologia ajuda a manter a competitividade dentro do mercado do agronegócio. Um dos grandes desafios para a implementação da tecnologia é manter o baixo custo e tornar acessível esse tipo de tecnologia para o uso doméstico. O presente trabalho tem como objetivo desenvolver a lógica de um circuito digital para automatizar a irrigação com base em diferentes tipos de sensores já existentes no mercado. Além disso, busca estar de acordo com o objetivo 2 e 6 dos Objetivos de Desenvolvimento Sustentável da ONU (Organização das Nações Unidas), que são fome zero e agricultura sustentável e água potável e saneamento.
 
 ## Abstract ##
 Abstract —  With the growing technological revolution focused on agribusiness, there is a need to develop systems that make manual activity automated, in order to guarantee quality and make the process simpler and more effective. In addition, this type of technology helps maintain competitiveness within the agribusiness market. One of the great challenges for the implementation of the technology is to keep the cost low and make this type of technology accessible for domestic use. This work aims to develop the logic of a digital circuit to automate irrigation based on different types of sensors already on the market. In addition, it seeks to comply with objective 2, 3 and 7 of the Sustainable Development Goals of the UN (United Nations), which are zero hunger; good health and well-being; and affordable and clean energy respectively.
@@ -131,3 +131,20 @@ O circuito completo pode ser observado logo abaixo com os respectivos sensores (
   <br> Figura 13: Sistema de irrigação completo
 </p>
 
+Na figura acima, os sensores de temperatura e umidade não estão na faixa de valores correta para ativação do circuito, ou seja, a temperatura não está acima de 25°C e o sensor de umidade está acima de 50%. O circuito verificador já foi capaz de detectar entre cada sensor qual deles está divergente dos demais. O segundo verificador só é ativado quando há ao menos duas entradas nível alta, mas neste caso apenas o pH. Como a entrada do usuário está habilitada, então a válvula de irrigação não é ativada.
+
+## Conclusão ##
+
+Em conclusão, um sistema de irrigação automático com sensores é altamente benéfico. Esse tipo de sistema proporciona uma gestão eficiente do uso de água, garantindo que as plantas recebam a quantidade adequada de irrigação no momento certo. Os sensores monitoram constantemente as condições do solo, como umidade e pH. Além disso, um sistema automatizado economiza tempo e esforço, eliminando a necessidade de monitoramento manual constante. Com a capacidade de otimizar o consumo de água e melhorar o crescimento das plantas, um sistema de irrigação automático com sensores se mostra uma escolha inteligente e sustentável para um manejo eficaz da água e uma paisagem verde exuberante. Além disso, é um sistema que contribui para os Objetivos de Desenvolvimento Sustentável da ONU, contribuindo especificamente para uma gestão eficiente do uso da água e fome zero e agricultura sustentável.
+
+## Referências ##
+[1] ANVISA. Programa de Análise de Resíduo de Agrotóxico em Alimentos (PARA), dados da coleta e análise de alimentos de 2010. Brasília: ANVISA, 2011. Disponível em: www.anvisa.gov.br. Acesso em 06 de junho de 2023.
+
+[2] DOS SANTOS ASSAD, ÉRIKA; NOVAES PILLAR DE OLIVEIRA CASTRO, L.; TAVARES MOTA, L. E.; DE JESUS SOUZA, M.; DE PAULA SILVA DE CARVALHO, M. Protótipo para instalação de um sistema para controle de irrigação de hortas caseiras: easy garden uma solução sustentável. Humanas Sociais & Aplicadas, v. 9, n. 26, p. 8-17, 19 dez. 2019.
+
+[3] TUDO Hidroponia. (s.d.). Cuidados com a solução nutritiva
+para Hidroponia. Tudo Hidroponia. Disponível em: http://tudohidroponia.net/cuidados-com-a-solucaonutritiva-para-hidroponia/. Acesso em 26 de Junho de 2023. 
+
+[4] SOUZA, Allef Silva; LOURENÇO, Ícaro Lopes; PEREIRA, Laiane dos Santos; SANTOS, Marcos Galdino. Horta hidropônica automatizada por microcontrolador. Disponível em: http://sistemaolimpo.org/midias/uploads/041a39b02a1a5bb1d271f19551ba9396.pdf. Acesso em 25 de Junho de 2023.
+
+[5] MARCUSSE, Carolina. Ter uma horta caseira é opção saudável e útil para toda família. Correio Braziliense, São Paulo, 01 de agosto de 2023. Disponível em: https://www.correiobraziliense.com.br/revista-do-correio/2022/07/5024821-ter-uma-horta-caseira-e-opcao-saudavel-e-util-para-toda-a-familia.html. Acesso em: 15 de junho de 2023.
