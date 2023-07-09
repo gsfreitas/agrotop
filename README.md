@@ -32,7 +32,7 @@ Com o presente trabalho, o objetivo é além de desenvolver um produto de baixo 
 O sensor de pH é um dos sensores envolvidos no projeto. Ele tem como finalidade medir o nível de acidez ou alcalinidade de uma solução. É amplamente utilizado em laboratórios, processos industriais e aplicações ambientais para monitorar e controlar a qualidade de líquidos, como água, alimentos e produtos químicos. O sensor de pH fornece informações importantes para garantir a segurança, eficiência e precisão em uma variedade de processos e aplicações.
 
 <p align="center">
-  <img src="sensor-ph.png" alt="Figura 1" width="200" height="200">
+  <img src="sensor-ph.png" alt="Figura 1" width="200" height="300">
 </p>
 
 No presente projeto, ele será utilizado para verificar a acidez ou alcalinidade na solução. Uma vez que as plantas em geral possuem o seu desenvolvimento máximo entre um pH de 5,5 e 6,5 e à medida que elas crescem esse valor pode ser alterado (SOUZA, Silva Allef, 2016).
@@ -44,7 +44,7 @@ Para aumentar a precisão do sistema, será utilizado uma lógica de verificaç�
 A simplificação para cada saída foi feita através do mapa de Karnaugh, ou mais comumente denominado mapa-K. A simplificação para a saída de base e ácido pode ser observada na Figura 3.
 
 <div>
-  <img src="tabela-verdade-ph.png" alt="Figura 2" width="200" height="200">
-  <img src="mapa-k-ph.png" alt="Figura 3" width="200" height="200">
+  <img src="tabela-verdade-ph.png" alt="Figura 2" width="200" height="300">
+  <img src="mapa-k-ph.png" alt="Figura 3" width="200" height="300">
 </div>
 
