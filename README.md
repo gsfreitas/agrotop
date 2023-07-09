@@ -79,3 +79,30 @@ A partir das tabelas-verdade anteriores é possível analisar o momento de ativa
 
 Antes de elaborar o diagrama do circuito, é importante simplificar cada um deles. Para ambos os casos, foi utilizado o mapa de Karnaugh para auxiliar o processo e então a equação que irá modelar o circuito. Ambos podem ser verificados a seguir.
 
+| ![Imagem 1](mapa-k-umidade.png)  | ![Imagem 2](mapa-k-temperatura.png)   |
+| :-----------------------------------:    | :-----------------------------------:         |
+| Figura 7: Mapa-K sensor umidade          |  Figura 8: Mapa-K sensor temperatura          |
+
+*T = T3*
+*U = U2'U0' + U2'U1'*
+### Verificador par a par ###
+
+Para garantir que os sensores estejam funcionando corretamente e detecte alguma anomalia na leitura, será utilizada uma lógica, para cada sensor, a fim de verificar se ao menos dois deles estejam funcionando corretamente. Um alarme irá detectar qual o sensor que apresenta um potencial erro de leitura em uma de suas saídas. Um display de 7 segmentos irá indicar qual dos circuitos se mostrou menos preciso durante a leitura.
+
+O circuito verificador foi desenvolvido de forma genérica, ou seja, um circuito integrado para facilitar a replicação posteriormente.
+
+<p align="center">
+  <img src="tabela-verdade-par-a-par.png" alt="Figura 9" width="400" height="300">
+  <br> Figura 9: Tabela verdade verificador
+</p>
+
+<p align="center">
+  <img src="mapa-k-par-a-par.png" alt="Figura 10" width="400" height="300">
+  <br> Figura 10: Mapa-K verificador
+</p>
+
+Simplificando a partir do mapa demonstrado na Figura 15, obtemos as seguintes expressões:
+
+*Saída = BA + CA + CB = A(B+C) + CB*
+*Alarme = B'A' + C'B' + C'A' = A'(B'+C') + C'B'*
+
