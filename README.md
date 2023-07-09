@@ -44,7 +44,7 @@ Para aumentar a precisão do sistema, será utilizado uma lógica de verificaç�
 A simplificação para cada saída foi feita através do mapa de Karnaugh, ou mais comumente denominado mapa-K. A simplificação para a saída de base e ácido pode ser observada na Figura 3.
 
 <div>
-  <img src="tabela-verdade-ph.png" alt="Figura 2" width="200" height="300">
-  <img src="mapa-k-ph.png" alt="Figura 3" width="200" height="300">
+  <img src="tabela-verdade-ph.png" alt="Figura 2" width="300" height="300">
+  <img src="mapa-k-ph.png" alt="Figura 3" width="300" height="300">
 </div>
 
