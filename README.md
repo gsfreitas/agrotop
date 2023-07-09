@@ -43,14 +43,13 @@ Para aumentar a precisão do sistema, será utilizado uma lógica de verificaç�
 
 A simplificação para cada saída foi feita através do mapa de Karnaugh, ou mais comumente denominado mapa-K. A simplificação para a saída de base e ácido pode ser observada na Figura 3.
 
-<p align="center">
-  <img src="tabela-verdade-ph.png" alt="Figura 2" width="300" height="300">
-  <br>
-  Figura 2: Tabela verdade sensor de pH
-</p>
-
-<p align="center">
-  <img src="mapa-k-ph.png" alt="Figura 3" width="300" height="300">
-  <br>
-  Figura 3: Mapa-K sensor de pH
-</p>
+<div style="display: flex; align-items: center;">
+  <div>
+    <img src="tabela-verdade-ph.png" alt="Imagem 2" width="400" height="300">
+    <p align="center">Figura 2: Tabela verdade sensor pH</p>
+  </div>
+  <div>
+    <img src="mapa-k-ph.png" alt="Imagem 3" width="400" height="300">
+    <p align="center">Figura 3: Mapa-K sensor pH</p>
+  </div>
+</div>
