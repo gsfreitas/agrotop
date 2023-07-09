@@ -74,3 +74,8 @@ A lógica para ambos os dispositivos é trabalhar em faixa de valores para 3 bit
 | ![Imagem 1](tabela-verdade-umidade.png)  | ![Imagem 2](tabela-verdade-temperatura.png)   |
 | :-----------------------------------:    | :-----------------------------------:         |
 | Figura 5: Tabela verdade sensor umidade  |  Figura 3: Tabela verdade sensor temperatura  |
+
+A partir das tabelas-verdade anteriores é possível analisar o momento de ativação para cada tipo de leitura. No caso de umidade, é ativo somente quando o valor mensurado é menor que 20% e o usuário precisa regar as plantas novamente. Já para o caso de temperatura, o usuário será avisado tanto no momento em que a temperatura exceder os valores máximos considerados ideais para as plantas, quanto para os valores mínimos ideais para manter sua sobrevivência.
+
+Antes de elaborar o diagrama do circuito, é importante simplificar cada um deles. Para ambos os casos, foi utilizado o mapa de Karnaugh para auxiliar o processo e então a equação que irá modelar o circuito. Ambos podem ser verificados a seguir.
+
