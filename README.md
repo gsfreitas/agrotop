@@ -69,4 +69,8 @@ Além disso, esse tipo de dispositivo também ajuda a evitar o apodrecimento das
 
 A umidade ideal para uma horta caseira varia de 50% até uma média de 75%. Essa faixa de valores será usada para o desenvolvimento do sensor posteriormente, respeitando os limites do dispositivo físico, que variam de 20% a 90% para o sensor de umidade e até 50°C para a leitura de temperatura.
 
-A lógica para ambos os dispositivos é trabalhar em faixa de valores para 3 bits para o sensor de umidade e com a finalidade de aumentar a precisão no sensor de temperatura, serão utilizados 4 bits. A tabela verdade para o sensor de umidade e temperatura podem ser analisadas respectivamente nas Figuras 8 e 9.
+A lógica para ambos os dispositivos é trabalhar em faixa de valores para 3 bits para o sensor de umidade e com a finalidade de aumentar a precisão no sensor de temperatura, serão utilizados 4 bits. A tabela verdade para o sensor de umidade e temperatura podem ser analisadas respectivamente nas Figuras 5 e 6.
+
+| ![Imagem 1](tabela-verdade-umidade.png)  | ![Imagem 2](tabela-verdade-temperatura.png)   |
+| :-----------------------------------:    | :-----------------------------------:         |
+| Figura 5: Tabela verdade sensor umidade  |  Figura 3: Tabela verdade sensor temperatura  |
