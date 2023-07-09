@@ -111,7 +111,16 @@ Simplificando a partir do mapa demonstrado na Figura 15, obtemos as seguintes ex
 
 Para facilitar a manutenção e acurácia da automação, o display de 7 segmentos foi introduzido a fim de sinalizar qual dos sensores pode estar apresentando erros de leitura.
 
-| ![Imagem 1](display-7-seg.png)            | ![Imagem 2](display.png)              |
-| :-----------------------------------:     | :-----------------------------------: |
+| ![Imagem 1](display-7-seg.png)            | ![Imagem 2](display.png)                |
+| :-----------------------------------:     | :-----------------------------------:   |
 | Figura 11: Display de 7 segmentos          |  Figura 12: Representação do display   |
+
+## Representação do circuito ##
+
+O circuito completo pode ser observado logo abaixo com os respectivos sensores (temperatura, pH e umidade), juntamente com o CI do clock e verificador.
+
+<p align="center">
+  <img src="circuito-completo.png" alt="Figura 10">
+  <br> Figura 13: Sistema de irrigação completo
+</p>
 
