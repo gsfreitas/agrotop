@@ -45,11 +45,11 @@ A simplificação para cada saída foi feita através do mapa de Karnaugh, ou ma
 
 <div style="display: flex; align-items: center;">
   <div>
-    <img src="tabela-verdade-ph.png" alt="Imagem 2" width="400" height="300">
+    <img src="tabela-verdade-ph.png" alt="Imagem 2" width="300" height="200">
     <p align="center">Figura 2: Tabela verdade sensor pH</p>
   </div>
   <div>
-    <img src="mapa-k-ph.png" alt="Imagem 3" width="400" height="300">
+    <img src="mapa-k-ph.png" alt="Imagem 3" width="300" height="200">
     <p align="center">Figura 3: Mapa-K sensor pH</p>
   </div>
 </div>
