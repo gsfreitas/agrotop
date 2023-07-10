@@ -4,7 +4,9 @@
 
 # AgroTop
 <sub>*Projeto final da disciplina de Circuitos Digitais do Instituto de Ciência e Tecnologia da Universidade Federal de São Paulo*<sub>
+
 <sub>*Relatório Final:* https://github.com/gsfreitas/agrotop/blob/main/Relatorio-AgroTop.pdf<sub>
+
 <sub>*Arquivos .panda:* https://github.com/gsfreitas/agrotop/blob/main/Sistema%20de%20Irriga%C3%A7%C3%A3o.zip
 
 ## Resumo ##
