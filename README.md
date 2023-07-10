@@ -4,6 +4,8 @@
 
 # AgroTop
 <sub>*Projeto final da disciplina de Circuitos Digitais do Instituto de Ciência e Tecnologia da Universidade Federal de São Paulo*<sub>
+<sub>*Relatório Final:* https://github.com/gsfreitas/agrotop/blob/main/Relatorio-AgroTop.pdf<sub>
+<sub>*Arquivos .panda:* https://github.com/gsfreitas/agrotop/blob/main/Sistema%20de%20Irriga%C3%A7%C3%A3o.zip
 
 ## Resumo ##
 Com a crescente revolução tecnológica voltada para o agronegócio, existe a necessidade do desenvolvimento de sistemas que tornem a atividade braçal automatizada, com a finalidade de garantir a qualidade e tornar o processo mais simples e eficaz. Além disso, esse tipo de tecnologia ajuda a manter a competitividade dentro do mercado do agronegócio. Um dos grandes desafios para a implementação da tecnologia é manter o baixo custo e tornar acessível esse tipo de tecnologia para o uso doméstico. O presente trabalho tem como objetivo desenvolver a lógica de um circuito digital para automatizar a irrigação com base em diferentes tipos de sensores já existentes no mercado. Além disso, busca estar de acordo com o objetivo 2 e 6 dos Objetivos de Desenvolvimento Sustentável da ONU (Organização das Nações Unidas), que são fome zero e agricultura sustentável e água potável e saneamento.
